@@ -5,12 +5,12 @@ This is a simple weather forecast application built with HTML, CSS, and JavaScri
 ## Features
 
 - View current weather conditions and forecast for any city.
-- Search for weather information by city name or ZIP code.
+- Search for weather information by city name.
 - Responsive design for easy access on any device.
 
 ## How to Use
 
-1. Enter a city name or ZIP code in the search bar.
+1. Enter a city name in the search bar.
 2. Press Enter or click the search button.
 3. Explore the weather data displayed on the screen.
 
@@ -22,7 +22,6 @@ This is a simple weather forecast application built with HTML, CSS, and JavaScri
 ## Credits
 
 - Weather icons by OpenWeather
-- Background image from Unsplash
 
 ## License
 
