@@ -18,6 +18,16 @@ searchButtonEL.addEventListener("click", (e) => {
   searchInputEL.value = "";
 });
 
+searchInputEL.addEventListener("keypress", (e) => {
+  if (e.key === "Enter") {
+    const location = searchInputEL.value;
+    if (location) {
+      getWeatherData(location);
+    }
+    searchInputEL.value = "";
+  }
+});
+
 function getWeatherData(location) {
   fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiUrl}`)
     .then((response) => {
